@@ -134,6 +134,9 @@ console.log("");
 
 const animalNames = [];
 
+zooAnimals.forEach(function(index) {
+  animalNames.push(`Name: ${index.animal_name}`,`Scientific: ${index.scientific_name}`);
+});
 
 
 console.log(animalNames);
